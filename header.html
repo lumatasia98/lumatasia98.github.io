@@ -20,15 +20,7 @@
 			text-shadow:1px 1px 1px rgb(113, 110, 128);
 		}
 
-		.nav{
-			float: right;
-  			text-align: center;
-  			padding: 5px 16px;
-  			text-decoration: none;
-  			font-size: 17px;
-  			border-bottom: 5px rgb(75, 73, 102);
-		}
-
+		
 		hr.rounded{
 			border-top: solid rgb(3, 3, 3);
 		}
@@ -41,33 +33,10 @@
 			</div>
 			
 		</div>
-		
-		<div class="row navigate">
-			<ul class="nav nav-pills" style="background-color: rgb(238, 238, 238);"
-				<li class="nav-item">
-			  		<a class="nav-link" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-			  		<a class="nav-link" href="#">About me</a>
-				</li>
-				<li class="nav-item">
-			  		<a class="nav-link" href="#">Projects</a>
-				</li>
-				<li class="nav-item">
-			  		<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
-		</div>
-	
-	<div class="row content">
-		<div class="welcome">
-			<h1 style="padding: 20px; color: slategrey; font-size: large; text-align: justify;">Welcome to my website</h1> 
-			<hr class"rounded">
-		</div>
-
-		<div class="footer">
-			<hr class "rounded">
-		</div>
-	</div>
-</div>
+</div>	
+	<script>
+		$(document).ready(function(){
+			$("#header").load("navigation.html");	
+		});
+	</script>
 	

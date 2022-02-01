@@ -32,3 +32,11 @@ hr.rounded {
 ul.nav a:hover {
     color: rgb(201, 202, 245) !important;
 }
+table,td{
+   text-align: left;
+   vertical-align: top;	
+   padding: 5px;
+}
+img{
+   border-radius: 10%;
+}

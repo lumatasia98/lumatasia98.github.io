@@ -1,6 +1,7 @@
 .content {
     background-color: rgba(216, 217, 228, 0.699);
     height: 100vh;
+    padding: 10px;
 }
 
 .welcome {
